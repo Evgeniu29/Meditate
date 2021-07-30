@@ -10,6 +10,14 @@
 
 
    <ImageView
+       android:id="@+id/morning"
+       android:layout_width="249dp"
+       android:layout_height="444dp"
+       android:layout_marginStart="57dp"
+       android:layout_marginTop="-47dp"
+       android:background="@drawable/img_14" />
+
+   <ImageView
        android:id="@+id/imageView"
        android:layout_width="216dp"
        android:layout_height="34dp"
@@ -42,14 +50,6 @@
           android:text="@string/morning"
           android:textColor="@color/blue"
           android:textSize="20dp"></TextView>
-
-      <ImageView
-          android:id="@+id/morning"
-          android:layout_width="249dp"
-          android:layout_height="444dp"
-          android:layout_marginStart="57dp"
-          android:layout_marginTop="-47dp"
-          android:background="@drawable/img_14" />
 
    </RelativeLayout>
 
