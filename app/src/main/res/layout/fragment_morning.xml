@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,27 +8,49 @@
     tools:context=".morning.MorningFragment"
     >
 
+
    <ImageView
        android:id="@+id/imageView"
        android:layout_width="216dp"
        android:layout_height="34dp"
-       android:layout_marginTop="24dp"
-       android:background="@drawable/img_9"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.42"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="parent"></ImageView>
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginStart="106dp"
+       android:layout_marginTop="48dp"
+       android:background="@drawable/img_9"></ImageView>
 
-   <ImageView
-       android:id="@+id/morning"
-       android:layout_width="281dp"
-       android:layout_height="344dp"
-       android:background="@drawable/img_14"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.376"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintVertical_bias="0.041" />
+   <RelativeLayout
+       android:layout_width="276dp"
+       android:layout_height="465dp"
+       android:layout_below="@+id/imageView"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="101dp"
+       android:layout_marginBottom="83dp"
+       android:background="@drawable/img_17">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+      <TextView
+          android:id="@+id/text3"
+          android:layout_width="223dp"
+          android:layout_height="41dp"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginEnd="28dp"
+          android:layout_marginBottom="21dp"
+          android:text="@string/morning"
+          android:textColor="@color/blue"
+          android:textSize="20dp"></TextView>
+
+      <ImageView
+          android:id="@+id/morning"
+          android:layout_width="249dp"
+          android:layout_height="444dp"
+          android:layout_marginStart="57dp"
+          android:layout_marginTop="-47dp"
+          android:background="@drawable/img_14" />
+
+   </RelativeLayout>
+
+</RelativeLayout>
