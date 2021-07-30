@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/img_13"
+    tools:context=".About1Activity">
+
+
+    <ImageView
+        android:layout_width="372dp"
+        android:layout_height="343dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-24dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/img_20"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="79dp"
+        android:text="@string/morning"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="265dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="129dp"
+        android:background="@drawable/img_18"
+        android:text="@string/morning"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/img_14"></ImageView>
+
+</RelativeLayout>

@@ -32,6 +32,18 @@
 
         </TextView>
 
+        <ImageView
+            android:id="@+id/daytimeimage"
+            android:layout_width="304dp"
+            android:layout_height="282dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="22dp"
+            android:background="@drawable/img_15">
+
+        </ImageView>
+
     </RelativeLayout>
 
     <ImageView
@@ -43,16 +55,6 @@
         android:layout_marginStart="67dp"
         android:layout_marginTop="37dp"
         android:background="@drawable/img_9">
-
-    </ImageView>
-
-    <ImageView
-        android:id="@+id/daytimeimage"
-        android:layout_width="wrap_content"
-        android:layout_height="442dp"
-        android:layout_marginStart="23dp"
-        android:layout_marginBottom="323dp"
-        android:background="@drawable/img_15">
 
     </ImageView>
 
