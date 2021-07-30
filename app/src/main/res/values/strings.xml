@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Meditation</string>
+    <string name="your_name">Your name</string>
+    <string name="media_topia">Mediatopia</string>
+    <string name="hi">Hi</string>
+    <string name="daytime">Daytime 5 min meditation</string>
+    <string name="before_sleep">Meditation before sleep</string>
+    <string name="morning">Morning meditation</string>
+
+</resources>

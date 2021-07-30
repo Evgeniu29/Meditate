@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/morning"
+        android:icon="@drawable/img_12"
+        android:title="@string/morning" />
+
+    <item
+        android:id="@+id/daytime"
+        android:icon="@drawable/img_12"
+        android:title="@string/daytime" />
+
+    <item
+        android:id="@+id/beforesleep"
+        android:icon="@drawable/img_12"
+        android:title="@string/before_sleep" />
+
+</menu>

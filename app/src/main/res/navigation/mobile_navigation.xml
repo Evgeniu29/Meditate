@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    >
+
+    <fragment
+        android:id="@+id/navigation_morning"
+        android:name="com.genius.meditation.morning.MorningFragment"
+        android:label="@string/morning"
+        tools:layout="@layout/fragment_morning" />
+
+    <fragment
+        android:id="@+id/navigation_daytime"
+        android:name="com.genius.meditation.daytime.DaytimeFragment"
+        android:label="@string/daytime"
+        tools:layout="@layout/fragment_daytime" />
+
+    <fragment
+        android:id="@+id/navigation_beforesleep"
+        android:name="com.genius.meditation.beforesleep.BeforeSleepFragment"
+        android:label="@string/before_sleep"
+        tools:layout="@layout/fragment_beforesleep" />
+</navigation>

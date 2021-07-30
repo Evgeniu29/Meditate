@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity"
+    android:background="@drawable/img">
+
+
+    <TextView
+        android:id="@+id/img_2"
+        android:layout_width="418dp"
+        android:layout_height="126dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/img_2"
+        android:gravity="center"
+        android:text="@string/media_topia"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/img_2"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="-157dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="133dp"
+            android:gravity="left"
+            android:text="@string/your_name"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editText"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/img_4"
+            android:text="Frodo"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="321dp"
+        android:layout_height="306dp"
+        android:layout_alignBottom="@id/root"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-325dp"
+        android:background="@drawable/img_3" />
+
+    <ImageButton
+        android:id="@+id/img_5"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/img_3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/img_5" />
+
+</RelativeLayout>

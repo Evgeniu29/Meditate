@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="icons">
+        <item>@drawable/img_13</item>
+        <item>@drawable/img_13</item>
+        <item>@drawable/img_13</item>
+    </integer-array>
+
+
+
+</resources>

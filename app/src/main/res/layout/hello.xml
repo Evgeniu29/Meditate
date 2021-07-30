@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity"
+    android:background="@drawable/img">
+
+    <TextView
+        android:id="@+id/img_7"
+        android:layout_width="323dp"
+        android:layout_height="288dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-24dp"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="112dp"
+        android:background="@drawable/img_7"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+    <ImageView
+        android:id="@+id/bottomView"
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/img_8" />
+
+    <ImageButton
+        android:id="@+id/go"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/img_6" />
+
+</RelativeLayout>
