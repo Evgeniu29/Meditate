@@ -5,30 +5,29 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import com.genius.meditation.databinding.About1Binding
+import com.genius.meditation.databinding.About2Binding
 import java.util.*
 
-class About1Activity : AppCompatActivity() {
+class About2Activity : AppCompatActivity() {
 
-    private lateinit var binding: About1Binding
+    private lateinit var binding: About2Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = About1Binding.inflate(layoutInflater)
+        binding = About2Binding.inflate(layoutInflater)
 
         val view = binding.root
 
         setContentView(view)
 
-        val timer1: ImageButton = findViewById(R.id.timer1)
+        val timer2:ImageButton = findViewById(R.id.timer2)
 
-        timer1.setOnLongClickListener(View.OnLongClickListener {
+        timer2.setOnLongClickListener(View.OnLongClickListener {
 
-            timer1.background=getDrawable(R.drawable.orange)
+            timer2.background=getDrawable(R.drawable.orange)
 
-
-            val intent: Intent = Intent(this@About1Activity, ProcessActivity::class.java)
+            val intent: Intent = Intent(this@About2Activity, ProcessActivity::class.java)
 
             startActivity(intent)
 

@@ -1,50 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/img_13"
     tools:context=".About1Activity">
 
 
     <ImageView
-        android:layout_width="372dp"
-        android:layout_height="343dp"
+        android:layout_width="406dp"
+        android:layout_height="286dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-24dp"
-        android:layout_marginTop="0dp"
-        android:background="@drawable/img_20"></ImageView>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="79dp"
-        android:text="@string/morning"
-        android:textSize="25sp" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/img_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="-5dp"></ImageView>
 
     <ImageView
+        android:id="@+id/image"
         android:layout_width="265dp"
         android:layout_height="98dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="129dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="82dp"
         android:background="@drawable/img_18"
         android:text="@string/morning"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="41dp" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/morning_girl"
+        android:layout_width="325dp"
+        android:layout_height="297dp"
+        android:layout_below="@+id/image"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="350dp"
-        android:background="@drawable/img_14"></ImageView>
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="264dp"
+        android:background="@drawable/img_14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="335dp">
+
+
+    </ImageView>
+
+    <ImageButton
+        android:id="@+id/timer1"
+        android:layout_width="145dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/morning_girl"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="11dp"
+        android:layout_weight="0.2"
+        android:background="@drawable/img_6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></ImageButton>
 
 </RelativeLayout>

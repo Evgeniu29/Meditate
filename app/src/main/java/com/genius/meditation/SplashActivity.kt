@@ -52,10 +52,10 @@ class SplashActivity : AppCompatActivity() {
 
             override fun onAnimationEnd(p0: Animation?) {
                 image.alpha = 0f
-
             }
 
             override fun onAnimationStart(p0: Animation?) {
+
             }
 
         })

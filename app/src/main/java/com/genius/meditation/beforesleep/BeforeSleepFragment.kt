@@ -34,6 +34,10 @@ class BeforeSleepFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        _binding = null
+        if (view != null) {
+            val parentViewGroup = requireView().parent as ViewGroup?
+            parentViewGroup?.removeAllViews();
+            _binding = null
+        }
     }
 }

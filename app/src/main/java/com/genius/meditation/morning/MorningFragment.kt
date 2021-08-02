@@ -16,7 +16,6 @@ class MorningFragment : Fragment() {
 
     // This property is only valid between onCreateView and
     // onDestroyView.
-    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -26,13 +25,17 @@ class MorningFragment : Fragment() {
         morningViewModel = ViewModelProvider(this).get(MorningViewModel::class.java)
 
         _binding = FragmentMorningBinding.inflate(inflater, container, false)
-        val root: View = binding.root
+        val root: View = _binding!!.root
 
         return root
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
-        _binding = null
+        if (view != null) {
+            val parentViewGroup = requireView().parent as ViewGroup?
+            parentViewGroup?.removeAllViews();
+            _binding=null
+        }
     }
 }

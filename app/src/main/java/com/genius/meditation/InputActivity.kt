@@ -17,6 +17,8 @@ class InputActivity : AppCompatActivity() {
 
         button.setOnLongClickListener{
 
+            button.background=getDrawable(R.drawable.orange)
+
             val intent = Intent(this@InputActivity, HelloActivity::class.java)
 
             var text = editText.text.toString()
