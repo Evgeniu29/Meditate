@@ -58,7 +58,7 @@
 
         <activity
             android:name=".ProcessActivity"
-            android:exported="true">
+           >
 
         </activity>
 

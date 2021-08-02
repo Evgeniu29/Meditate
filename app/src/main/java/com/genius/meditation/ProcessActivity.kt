@@ -2,16 +2,15 @@ package com.genius.meditation
 
 import android.os.Bundle
 import android.view.View
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.github.ybq.android.spinkit.style.DoubleBounce
 
 import com.github.ybq.android.spinkit.sprite.Sprite
-import android.widget.Chronometer
-import android.widget.ImageButton
 
-import android.widget.ProgressBar
 import androidx.core.view.isVisible
 import com.genius.meditation.databinding.TimerBinding
+
 
 class ProcessActivity : AppCompatActivity() {
 
@@ -22,6 +21,10 @@ class ProcessActivity : AppCompatActivity() {
 
         binding = TimerBinding.inflate(layoutInflater)
         val view = binding.root
+        val layoutManager = RelativeLayout(this)
+        val image = ImageView(this)
+
+        layoutManager.removeView(image)
 
         setContentView(view)
 
@@ -54,5 +57,5 @@ class ProcessActivity : AppCompatActivity() {
 
         })
 
-}}
+    }}
 

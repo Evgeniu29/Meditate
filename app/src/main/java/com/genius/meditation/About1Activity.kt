@@ -27,7 +27,6 @@ class About1Activity : AppCompatActivity() {
 
             timer1.background=getDrawable(R.drawable.orange)
 
-
             val intent: Intent = Intent(this@About1Activity, ProcessActivity::class.java)
 
             startActivity(intent)
